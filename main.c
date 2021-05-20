@@ -734,14 +734,14 @@ void choixNbrPts(int pos)
 
 
 /******************************  us function  ***********************/
-
+/*
 void delay (uint16_t time)
 {
-	/* change your code here for the delay in microseconds */
+	// change your code here for the delay in microseconds 
 	__HAL_TIM_SET_COUNTER(&htim1, 0);
 	while ((__HAL_TIM_GET_COUNTER(&htim1))<time);
 }
-
+*/
 void delayS (uint16_t us)
 {
 	__HAL_TIM_SET_COUNTER(&htim3, 0);
